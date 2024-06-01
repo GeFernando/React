@@ -1,17 +1,32 @@
 import React from "react"
 
-const Navbar = () =>{
-    return (
-        <nav class="navbar-F fixed-top">
-  <div class="container-fluid">
-    <span class="navbar-branda">Star Bootstrap</span>
-    <span class="navbar-brandb">Home</span>
-    <span class="navbar-brandc">About</span>
-    <span class="navbar-brandd">Services</span>
-    <span class="navbar-brande">Contact</span>
-  </div>
-</nav>
-    )
+const Navbar = () => {
+  return (
+    <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="#">Start Bootstrap</a>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page">Home</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">About</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">Services</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  )
 }
 
 export default Navbar

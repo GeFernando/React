@@ -1,41 +1,15 @@
-.navbar-F {
-    background-color: black;
-    width: 1366px;
-    height: 60px;
-    border: color solid white
-}
-.container-fluid {
-    display: flex;
-}
-.navbar-brand {
-    color: white
-}
-.navbar-branda {
-    color: white;
-    font-size: 20px;
-    transform: translateX(6.2%) translateY(33%);
-}
-.navbar-brandb {
-    color: white;
-    transform: translateX(2050%) translateY(53%);
-}
-.navbar-brandc {
-    color: grey;
-    transform: translateX(2079%) translateY(53%);
-}
-.navbar-brandd {
-    color: grey;
-    transform: translateX(1652%) translateY(53%);
-}
-.navbar-brande {
-    color: grey;
-    transform: translateX(1754%) translateY(53%);
-
+body {
+    margin:0;
+    padding:0;
 }
 .card {
     transform: translateX(7.4%);
     display: flex;
     width: 18rem;
+}
+
+.card-custom {
+    margin-bottom: 1rem;
 }
 .row {
     display: flex;
@@ -56,16 +30,4 @@
 }
 .btn {
     margin-bottom: 32px;
-}
-.navbar {
-    display: flex;
-    width: 1366px;
-    height: 60px;
-    display: flex;
-    background-color: black;
-    color: white;
-}
-.navbar-brandx{
-    transform: translateX(433%);
-    font-size: 10px;
 }
