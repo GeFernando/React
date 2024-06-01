@@ -1,12 +1,71 @@
+.navbar-F {
+    background-color: black;
+    width: 1366px;
+    height: 60px;
+    border: color solid white
+}
+.container-fluid {
+    display: flex;
+}
+.navbar-brand {
+    color: white
+}
+.navbar-branda {
+    color: white;
+    font-size: 20px;
+    transform: translateX(6.2%) translateY(33%);
+}
+.navbar-brandb {
+    color: white;
+    transform: translateX(2050%) translateY(53%);
+}
+.navbar-brandc {
+    color: grey;
+    transform: translateX(2079%) translateY(53%);
+}
+.navbar-brandd {
+    color: grey;
+    transform: translateX(1652%) translateY(53%);
+}
+.navbar-brande {
+    color: grey;
+    transform: translateX(1754%) translateY(53%);
 
-/* 
-
-    You can write your own styles here...
+}
+.card {
+    transform: translateX(7.4%);
+    display: flex;
+    width: 18rem;
+}
+.row {
+    display: flex;
+    width: 1378px;
+    text-align: center;
+}
+.container-fluid-A {
+    background-color: rgb(235, 232, 232);
+    padding: 0;
+    width: 1322px;
+    transform: translateX(1.61%) translateY(18%);
+    margin-top: 41px;
+    margin-bottom: 69px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+.display-5 {
+    font-size: 18px;
+}
+.btn {
+    margin-bottom: 32px;
+}
+.navbar {
+    display: flex;
+    width: 1366px;
+    height: 60px;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.navbar-brandx{
+    transform: translateX(433%);
+    font-size: 10px;
+}
